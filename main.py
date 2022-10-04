@@ -16,9 +16,9 @@ location = "cell"
 
 
 def clear_screen():
-    os.system('clear')
-    #clear = lambda:os.system("cls")
-    #clear()
+    #os.system('clear')
+    clear = lambda:os.system('cls')
+    clear()
 
 def jail_cell(choice):
     global location
